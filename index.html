@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To My Project</h1>
+        <p><span> : Josepoul1029</span> </p>
+        <label for="time" style="color: aliceblue; font-size: 1rem;cursor: pointer; font-weight: bold;">DATE: </label>
+        <input id="time" name="" type="date"><label style="color: aliceblue;cursor: pointer; font-size: 1rem; font-weight: bold;">TIME: </label><input type="time" id="time" name="">
+    </header> 
+    <div class="container">
+        <h3 style="font-size: 20px; color: #fffcfc;text-align: center; font-family: cursive;font-style: italic;text-transform: capitalize;">Start your day with vision </h3>
+        <div class="todo-app">
+            <h2>To-Do List  <img src="app.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+                 <ul id="list-container" class="checked">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+        </div>
+    </div>
+        <footer>
+        <p style="text-align: start;padding: 14px; width: 100%; height: 30%; background-color: #333; font-size: 16px; font-weight: 20px; color: #fff;">Contact Me @ Josepoul1029  📞+255 760 874580 / +255 780 465 170  or Email:josepoul1029 @gmail.com</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
